@@ -8,9 +8,6 @@ const nextConfig = {
   assetPrefix: '/glossario-streamer/',
   images: {
     unoptimized: true,
-  },
-  experimental: {
-    esmExternals: false
   }
 }
 

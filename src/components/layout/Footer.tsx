@@ -49,19 +49,19 @@ export function Footer() {
             </h4>
             <ul className="space-y-2">
               <li>
-                <a href="/guias" className="text-gray-600 hover:text-gray-900 text-sm">
+                <Link href="/#guias" className="text-gray-600 hover:text-gray-900 text-sm">
                   Guias
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/#busca" className="text-gray-600 hover:text-gray-900 text-sm">
+                <Link href="/#busca" className="text-gray-600 hover:text-gray-900 text-sm">
                   Buscar
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contribuir" className="text-gray-600 hover:text-gray-900 text-sm">
+                <Link href="/#contribuir" className="text-gray-600 hover:text-gray-900 text-sm">
                   Contribuir
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
