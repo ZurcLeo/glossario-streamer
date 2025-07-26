@@ -103,7 +103,7 @@ export default async function TermPage({ params }: TermPageProps) {
       </header>
 
       {/* Content */}
-      <article className="prose prose-lg prose-invert max-w-none mb-12">
+      <article className="prose prose-lg max-w-none mb-12">
       <div dangerouslySetInnerHTML={{ __html: term.htmlContent }} />
       </article>
 

@@ -3,6 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
+import remarkGfm from 'remark-gfm';
 import { Term, TermFrontmatter, Category } from '@/types/content';
 
 const contentDirectory = path.join(process.cwd(), 'content');
@@ -41,7 +42,7 @@ export async function getTermBySlug(category: string, slug: string): Promise<Ter
     const { data, content } = matter(fileContent);
     
     // Process markdown to HTML
-    const processedContent = await remark().use(html).process(content);
+    const processedContent = await remark().use(remarkGfm).use(html).process(content);
     const htmlContent = processedContent.toString();
     
     return {
