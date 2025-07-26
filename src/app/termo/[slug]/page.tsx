@@ -1,11 +1,11 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getAllTerms, getTermBySlug, getAllCategories } from '@/lib/content';
+import { getAllTerms, getAllCategories } from '@/lib/content';
 
 interface Props {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export async function generateStaticParams() {
@@ -17,8 +17,9 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props) {
   // Precisamos encontrar o termo em todas as categorias
+  const { slug } = await params;
   const allTerms = await getAllTerms();
-  const term = allTerms.find(t => t.slug === params.slug);
+  const term = allTerms.find(t => t.slug === slug);
   
   if (!term) {
     return {
@@ -36,8 +37,9 @@ export async function generateMetadata({ params }: Props) {
 
 export default async function TermPage({ params }: Props) {
   // Buscar o termo em todas as categorias
+  const { slug } = await params;
   const allTerms = await getAllTerms();
-  const term = allTerms.find(t => t.slug === params.slug);
+  const term = allTerms.find(t => t.slug === slug);
   
   if (!term) {
     notFound();
