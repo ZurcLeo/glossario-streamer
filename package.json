@@ -2,11 +2,10 @@
   "name": "glossario-streamer",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "scripts": {
+      "build": "next build",
+      "export": "next export",
+      "deploy": "npm run build && touch out/.nojekyll"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
