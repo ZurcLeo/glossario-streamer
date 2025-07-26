@@ -1,0 +1,127 @@
+1:"$Sreact.fragment"
+2:I[6874,["874","static/chunks/874-437a265a67d6cfee.js","854","static/chunks/app/termo/%5Bslug%5D/page-ea20c80c773ccc7d.js"],""]
+3:I[4961,["874","static/chunks/874-437a265a67d6cfee.js","177","static/chunks/app/layout-297dabf599293369.js"],"SearchBox"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+c:I[8393,[],""]
+:HL["/glossario-streamer/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/glossario-streamer/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/glossario-streamer/_next/static/css/419373ba40aa6852.css","style"]
+0:{"P":null,"b":"nHwHsbzrp0HPjs2p7Mt5M","p":"/glossario-streamer","c":["","termo","ambiente-seguro",""],"i":false,"f":[[["",{"children":["termo",{"children":[["slug","ambiente-seguro","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/glossario-streamer/_next/static/css/419373ba40aa6852.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"pt-BR","children":["$","body",null,{"className":"__variable_cb1204 __variable_be40eb antialiased bg-gray-50","children":["$","div",null,{"className":"min-h-screen flex flex-col","children":[["$","header",null,{"className":"bg-white shadow-sm border-b","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"flex justify-between items-center h-16","children":[["$","div",null,{"className":"flex items-center","children":["$","$L2",null,{"href":"/","className":"flex-shrink-0","children":["$","h1",null,{"className":"text-2xl font-bold text-purple-600","children":"Glossário Streamer"}]}]}],["$","div",null,{"className":"flex-1 max-w-lg mx-8","children":["$","$L3",null,{}]}],["$","nav",null,{"className":"flex space-x-8","children":[["$","$L2",null,{"href":"/categorias","className":"text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium","children":"Categorias"}],["$","$L2",null,{"href":"/busca","className":"text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium","children":"Buscar"}]]}]]}]}]}],["$","main",null,{"className":"flex-1","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gray-50 border-t","children":["$","div",null,{"className":"max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-8","children":[["$","div",null,{"className":"col-span-1 md:col-span-2","children":[["$","h3",null,{"className":"text-lg font-semibold text-gray-900 mb-4","children":"Glossário Streamer"}],["$","p",null,{"className":"text-gray-600 text-sm","children":"Seu guia completo para o sucesso no streaming. Aprenda estratégias, técnicas e segredos dos streamers de sucesso."}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4","children":"Categorias"}],["$","ul",null,{"className":"space-y-2","children":[["$","li",null,{"children":["$","$L2",null,{"href":"/categoria/monetizacao","className":"text-gray-600 hover:text-gray-900 text-sm","children":"Monetização"}]}],["$","li",null,{"children":["$","$L2",null,{"href":"/categoria/crescimento","className":"text-gray-600 hover:text-gray-900 text-sm","children":"Crescimento"}]}],["$","li",null,{"children":["$","$L2",null,{"href":"/categoria/comunidade","className":"text-gray-600 hover:text-gray-900 text-sm","children":"Comunidade"}]}],["$","li",null,{"children":["$","$L2",null,{"href":"/categoria/seguranca","className":"text-gray-600 hover:text-gray-900 text-sm","children":"Segurança"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4","children":"Recursos"}],"$L6"]}]]}],"$L7"]}]}]]}]}]}]]}],{"children":["termo","$L8",{"children":[["slug","ambiente-seguro","d"],"$L9",{"children":["__PAGE__","$La",{},null,false]},null,false]},null,false]},null,false],"$Lb",false]],"m":"$undefined","G":["$c",[]],"s":false,"S":true}
+e:I[9665,[],"OutletBoundary"]
+10:I[4911,[],"AsyncMetadataOutlet"]
+12:I[9665,[],"ViewportBoundary"]
+14:I[9665,[],"MetadataBoundary"]
+15:"$Sreact.suspense"
+6:["$","ul",null,{"className":"space-y-2","children":[["$","li",null,{"children":["$","a",null,{"href":"/guias","className":"text-gray-600 hover:text-gray-900 text-sm","children":"Guias"}]}],["$","li",null,{"children":["$","a",null,{"href":"/busca","className":"text-gray-600 hover:text-gray-900 text-sm","children":"Buscar"}]}],["$","li",null,{"children":["$","a",null,{"href":"/contribuir","className":"text-gray-600 hover:text-gray-900 text-sm","children":"Contribuir"}]}]]}]
+7:["$","div",null,{"className":"mt-8 pt-8 border-t border-gray-200","children":["$","p",null,{"className":"text-gray-400 text-sm text-center","children":"© 2024 Glossário Streamer. Feito com ❤️ para a comunidade de streamers."}]}]
+8:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+a:["$","$1","c",{"children":["$Ld",null,["$","$Le",null,{"children":["$Lf",["$","$L10",null,{"promise":"$@11"}]]}]]}]
+b:["$","$1","h",{"children":[null,[["$","$L12",null,{"children":"$L13"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L14",null,{"children":["$","div",null,{"hidden":true,"children":["$","$15",null,{"fallback":null,"children":"$L16"}]}]}]]}]
+17:T11a7,<h1>Ambiente Seguro</h1>
+<blockquote>
+<p><strong>TL;DR:</strong> Estabeleça regras claras e modere consistentemente para criar um espaço onde todos se sintam bem-vindos.</p>
+</blockquote>
+<h2>🎯 O que é</h2>
+<p>Um <strong>ambiente seguro</strong> é um espaço digital onde todos os participantes se sentem respeitados, protegidos e livres para interagir sem medo de assédio, discriminação ou comportamentos tóxicos.</p>
+<h2>🛡️ Pilares fundamentais</h2>
+<h3>1. Regras Claras e Visíveis</h3>
+<ul>
+<li><strong>Defina expectativas</strong> desde o primeiro momento</li>
+<li><strong>Comunique as regras</strong> no chat, sobre o stream, descrição</li>
+<li><strong>Seja específico</strong> sobre o que é e não é permitido</li>
+</ul>
+<h3>2. Moderação Consistente</h3>
+<ul>
+<li><strong>Aplique regras igualmente</strong> para todos</li>
+<li><strong>Aja rapidamente</strong> em violações</li>
+<li><strong>Seja firme mas respeitoso</strong> nas ações disciplinares</li>
+</ul>
+<h3>3. Cultura Positiva</h3>
+<ul>
+<li><strong>Dê o exemplo</strong> com seu próprio comportamento</li>
+<li><strong>Reconheça comportamentos positivos</strong> da comunidade</li>
+<li><strong>Crie tradições</strong> que reforcem valores positivos</li>
+</ul>
+<h2>📋 Regras essenciais</h2>
+<h3>Proibições fundamentais:</h3>
+<p>❌ <strong>Linguagem ofensiva</strong> (racismo, homofobia, sexismo)
+❌ <strong>Assédio ou bullying</strong> a qualquer pessoa
+❌ <strong>Spam ou flood</strong> no chat
+❌ <strong>Conteúdo sexual</strong> inadequado para menores
+❌ <strong>Discussões políticas</strong> controversas
+❌ <strong>Divulgação não autorizada</strong> de outros canais</p>
+<h3>Comportamentos incentivados:</h3>
+<p>✅ <strong>Respeito mútuo</strong> entre membros
+✅ <strong>Inclusão de novatos</strong> na conversa
+✅ <strong>Feedback construtivo</strong> quando solicitado
+✅ <strong>Celebração de conquistas</strong> da comunidade</p>
+<h2>🔧 Ferramentas de implementação</h2>
+<h3>Configurações da plataforma:</h3>
+<ul>
+<li><strong>Filtros automáticos</strong> para palavras proibidas</li>
+<li><strong>Modo sub-only</strong> em momentos tensos</li>
+<li><strong>Time-outs</strong> graduais (1min → 5min → 1h → ban)</li>
+<li><strong>Lista de moderadores</strong> confiáveis</li>
+</ul>
+<h3>Comunicação preventiva:</h3>
+<ul>
+<li><strong>Avisos visuais</strong> com as regras principais</li>
+<li><strong>Lembretes periódicos</strong> durante a transmissão</li>
+<li><strong>Orientação para novatos</strong> que chegam</li>
+</ul>
+<h2>🚨 Gerenciamento de conflitos</h2>
+<h3>Protocolo de 3 etapas:</h3>
+<ol>
+<li><strong>Aviso verbal</strong> público no chat</li>
+<li><strong>Time-out</strong> com explicação privada</li>
+<li><strong>Ban temporário</strong> ou permanente</li>
+</ol>
+<h3>Escalação inteligente:</h3>
+<ul>
+<li><strong>Conflitos menores:</strong> Redirecione a conversa</li>
+<li><strong>Violações moderadas:</strong> Time-out + conversa privada</li>
+<li><strong>Violações graves:</strong> Ban imediato + relatório</li>
+</ul>
+<h2>📊 Sinais de sucesso</h2>
+<h3>Métricas qualitativas:</h3>
+<ul>
+<li><strong>Novatos se sentem</strong> à vontade para participar</li>
+<li><strong>Membros antigos</strong> ajudam a integrar novos</li>
+<li><strong>Discussões fluem</strong> naturalmente sem toxicidade</li>
+<li><strong>Viewers retornam</strong> regularmente ao canal</li>
+</ul>
+<h3>Indicadores de alerta:</h3>
+<p>⚠️ <strong>Queda na participação</strong> do chat
+⚠️ <strong>Comentários negativos</strong> frequentes
+⚠️ <strong>Viewers abandonando</strong> durante conflitos
+⚠️ <strong>Moderadores sobrecarregados</strong> com violações</p>
+<h2>🎯 Implementação prática</h2>
+<h3>Semana 1: Fundação</h3>
+<ul>
+<li>Defina e comunique regras básicas</li>
+<li>Configure filtros automáticos</li>
+<li>Treine moderadores principais</li>
+</ul>
+<h3>Semana 2-4: Refinamento</h3>
+<ul>
+<li>Ajuste regras baseado no feedback</li>
+<li>Desenvolva protocolos específicos</li>
+<li>Crie comandos de chat úteis</li>
+</ul>
+<h3>Mês 2+: Cultura</h3>
+<ul>
+<li>Reconheça membros exemplares</li>
+<li>Crie eventos comunitários</li>
+<li>Expanda time de moderação</li>
+</ul>
+<hr>
+<p><strong>💡 Dica de Expert:</strong> Um ambiente seguro não é construído com regras, mas com <strong>cultura</strong>. As regras são apenas ferramentas - o verdadeiro segredo está em liderar pelo exemplo e criar uma comunidade que se autopolicia positivamente.</p>
+d:["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":[["$","nav",null,{"className":"mb-8","children":["$","ol",null,{"className":"flex items-center space-x-2 text-sm text-gray-500","children":[["$","li",null,{"children":["$","$L2",null,{"href":"/","className":"hover:text-gray-700","children":"Início"}]}],["$","li",null,{"children":"/"}],["$","li",null,{"children":["$","$L2",null,{"href":"/categoria/seguranca","className":"hover:text-gray-700 capitalize","children":"seguranca"}]}],["$","li",null,{"children":"/"}],["$","li",null,{"className":"text-gray-900 font-medium","children":"Ambiente Seguro"}]]}]}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-start justify-between mb-4","children":[["$","div",null,{"className":"flex-1","children":[["$","h1",null,{"className":"text-4xl font-bold text-gray-900 mb-2","children":"Ambiente Seguro"}],["$","p",null,{"className":"text-xl text-gray-600 mb-4","children":"Criando um espaço protegido para sua comunidade"}]]}],["$","span",null,{"className":"ml-4 inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800","children":"⭐ Destaque"}]]}],["$","div",null,{"className":"flex flex-wrap items-center gap-4 mb-6","children":[["$","span",null,{"className":"inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800","children":"iniciante"}],["$","span",null,{"className":"text-sm text-gray-500","children":"4 min"}],["$","span",null,{"className":"text-sm text-gray-500","children":["Última revisão: ","20/01/2024"]}]]}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","span","moderacao",{"className":"inline-flex items-center px-2 py-1 rounded text-sm font-medium bg-gray-100 text-gray-800","children":"moderacao"}],["$","span","seguranca",{"className":"inline-flex items-center px-2 py-1 rounded text-sm font-medium bg-gray-100 text-gray-800","children":"seguranca"}],["$","span","comunidade",{"className":"inline-flex items-center px-2 py-1 rounded text-sm font-medium bg-gray-100 text-gray-800","children":"comunidade"}],["$","span","regras",{"className":"inline-flex items-center px-2 py-1 rounded text-sm font-medium bg-gray-100 text-gray-800","children":"regras"}]]}]]}],["$","article",null,{"className":"prose prose-lg max-w-none mb-12","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$17"}}]}],"$L18"]}]
+18:["$","section",null,{"className":"border-t pt-8","children":[["$","h2",null,{"className":"text-2xl font-bold text-gray-900 mb-6","children":"Termos Relacionados"}],["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4","children":[null,null]}]]}]
+13:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+f:null
+19:I[8175,[],"IconMark"]
+11:{"metadata":[["$","title","0",{"children":"Glossário Streamer"}],["$","meta","1",{"name":"description","content":"Seu guia completo para o sucesso no streaming"}],["$","link","2",{"rel":"icon","href":"/glossario-streamer/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","$L19","3",{}]],"error":null,"digest":"$undefined"}
+16:"$11:metadata"

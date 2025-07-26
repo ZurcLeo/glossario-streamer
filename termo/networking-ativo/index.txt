@@ -1,0 +1,182 @@
+1:"$Sreact.fragment"
+2:I[6874,["874","static/chunks/874-437a265a67d6cfee.js","854","static/chunks/app/termo/%5Bslug%5D/page-ea20c80c773ccc7d.js"],""]
+3:I[4961,["874","static/chunks/874-437a265a67d6cfee.js","177","static/chunks/app/layout-297dabf599293369.js"],"SearchBox"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+c:I[8393,[],""]
+:HL["/glossario-streamer/_next/static/media/569ce4b8f30dc480-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/glossario-streamer/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/glossario-streamer/_next/static/css/419373ba40aa6852.css","style"]
+0:{"P":null,"b":"nHwHsbzrp0HPjs2p7Mt5M","p":"/glossario-streamer","c":["","termo","networking-ativo",""],"i":false,"f":[[["",{"children":["termo",{"children":[["slug","networking-ativo","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/glossario-streamer/_next/static/css/419373ba40aa6852.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"pt-BR","children":["$","body",null,{"className":"__variable_cb1204 __variable_be40eb antialiased bg-gray-50","children":["$","div",null,{"className":"min-h-screen flex flex-col","children":[["$","header",null,{"className":"bg-white shadow-sm border-b","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"flex justify-between items-center h-16","children":[["$","div",null,{"className":"flex items-center","children":["$","$L2",null,{"href":"/","className":"flex-shrink-0","children":["$","h1",null,{"className":"text-2xl font-bold text-purple-600","children":"Glossário Streamer"}]}]}],["$","div",null,{"className":"flex-1 max-w-lg mx-8","children":["$","$L3",null,{}]}],["$","nav",null,{"className":"flex space-x-8","children":[["$","$L2",null,{"href":"/categorias","className":"text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium","children":"Categorias"}],["$","$L2",null,{"href":"/busca","className":"text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium","children":"Buscar"}]]}]]}]}]}],["$","main",null,{"className":"flex-1","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-gray-50 border-t","children":["$","div",null,{"className":"max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8","children":[["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-4 gap-8","children":[["$","div",null,{"className":"col-span-1 md:col-span-2","children":[["$","h3",null,{"className":"text-lg font-semibold text-gray-900 mb-4","children":"Glossário Streamer"}],["$","p",null,{"className":"text-gray-600 text-sm","children":"Seu guia completo para o sucesso no streaming. Aprenda estratégias, técnicas e segredos dos streamers de sucesso."}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4","children":"Categorias"}],["$","ul",null,{"className":"space-y-2","children":[["$","li",null,{"children":["$","$L2",null,{"href":"/categoria/monetizacao","className":"text-gray-600 hover:text-gray-900 text-sm","children":"Monetização"}]}],["$","li",null,{"children":["$","$L2",null,{"href":"/categoria/crescimento","className":"text-gray-600 hover:text-gray-900 text-sm","children":"Crescimento"}]}],["$","li",null,{"children":["$","$L2",null,{"href":"/categoria/comunidade","className":"text-gray-600 hover:text-gray-900 text-sm","children":"Comunidade"}]}],["$","li",null,{"children":["$","$L2",null,{"href":"/categoria/seguranca","className":"text-gray-600 hover:text-gray-900 text-sm","children":"Segurança"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4","children":"Recursos"}],"$L6"]}]]}],"$L7"]}]}]]}]}]}]]}],{"children":["termo","$L8",{"children":[["slug","networking-ativo","d"],"$L9",{"children":["__PAGE__","$La",{},null,false]},null,false]},null,false]},null,false],"$Lb",false]],"m":"$undefined","G":["$c",[]],"s":false,"S":true}
+e:I[9665,[],"OutletBoundary"]
+10:I[4911,[],"AsyncMetadataOutlet"]
+12:I[9665,[],"ViewportBoundary"]
+14:I[9665,[],"MetadataBoundary"]
+15:"$Sreact.suspense"
+6:["$","ul",null,{"className":"space-y-2","children":[["$","li",null,{"children":["$","a",null,{"href":"/guias","className":"text-gray-600 hover:text-gray-900 text-sm","children":"Guias"}]}],["$","li",null,{"children":["$","a",null,{"href":"/busca","className":"text-gray-600 hover:text-gray-900 text-sm","children":"Buscar"}]}],["$","li",null,{"children":["$","a",null,{"href":"/contribuir","className":"text-gray-600 hover:text-gray-900 text-sm","children":"Contribuir"}]}]]}]
+7:["$","div",null,{"className":"mt-8 pt-8 border-t border-gray-200","children":["$","p",null,{"className":"text-gray-400 text-sm text-center","children":"© 2024 Glossário Streamer. Feito com ❤️ para a comunidade de streamers."}]}]
+8:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+a:["$","$1","c",{"children":["$Ld",null,["$","$Le",null,{"children":["$Lf",["$","$L10",null,{"promise":"$@11"}]]}]]}]
+b:["$","$1","h",{"children":[null,[["$","$L12",null,{"children":"$L13"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L14",null,{"children":["$","div",null,{"hidden":true,"children":["$","$15",null,{"fallback":null,"children":"$L16"}]}]}]]}]
+17:T19eb,<h1>Networking Ativo</h1>
+<blockquote>
+<p><strong>TL;DR:</strong> Construa relacionamentos genuínos com outros streamers para crescimento mútuo e oportunidades de colaboração.</p>
+</blockquote>
+<h2>🎯 O que é</h2>
+<p><strong>Networking Ativo</strong> é a prática estratégica de construir e manter relacionamentos profissionais genuínos com outros criadores de conteúdo, visando crescimento mútuo, colaborações e oportunidades.</p>
+<h2>🌟 Por que é crucial</h2>
+<h3>Benefícios diretos:</h3>
+<ul>
+<li><strong>Exposição cruzada</strong> para audiências diferentes</li>
+<li><strong>Colaborações</strong> em projetos e eventos</li>
+<li><strong>Troca de conhecimento</strong> e experiências</li>
+<li><strong>Suporte emocional</strong> da comunidade</li>
+</ul>
+<h3>Impacto no crescimento:</h3>
+<ul>
+<li><strong>Raids e hosts</strong> de streamers parceiros</li>
+<li><strong>Recomendações</strong> orgânicas para viewers</li>
+<li><strong>Participação em eventos</strong> colaborativos</li>
+<li><strong>Mentoria</strong> de streamers experientes</li>
+</ul>
+<h2>🎯 Estratégias de networking</h2>
+<h3>1. Identificação de prospects</h3>
+<ul>
+<li><strong>Streamers do seu nível</strong> (crescimento mútuo)</li>
+<li><strong>Criadores de nicho similar</strong> (audiência compatível)</li>
+<li><strong>Streamers maiores</strong> (potencial mentoria)</li>
+<li><strong>Novatos promissores</strong> (investimento a longo prazo)</li>
+</ul>
+<h3>2. Primeira abordagem</h3>
+<ul>
+<li><strong>Assista genuinamente</strong> antes de interagir</li>
+<li><strong>Participe do chat</strong> de forma natural</li>
+<li><strong>Ofereça valor</strong> antes de pedir algo</li>
+<li><strong>Seja autêntico</strong> nas interações</li>
+</ul>
+<h3>3. Construção do relacionamento</h3>
+<ul>
+<li><strong>Consistência</strong> nas interações</li>
+<li><strong>Apoio mútuo</strong> em projetos</li>
+<li><strong>Celebração de conquistas</strong> alheias</li>
+<li><strong>Disponibilidade</strong> para ajudar quando necessário</li>
+</ul>
+<h2>🤝 Tipos de networking</h2>
+<h3>Networking Horizontal (mesmo nível)</h3>
+<p><strong>Objetivo:</strong> Crescimento mútuo</p>
+<ul>
+<li>Raids recíprocos</li>
+<li>Colaborações em conteúdo</li>
+<li>Projetos conjuntos</li>
+<li>Suporte em eventos especiais</li>
+</ul>
+<h3>Networking Vertical (níveis diferentes)</h3>
+<p><strong>Com streamers maiores:</strong></p>
+<ul>
+<li>Aprenda observando</li>
+<li>Ofereça valor específico</li>
+<li>Seja paciente e respeitoso</li>
+<li>Demonstre profissionalismo</li>
+</ul>
+<p><strong>Com streamers menores:</strong></p>
+<ul>
+<li>Seja mentor quando possível</li>
+<li>Compartilhe conhecimento</li>
+<li>Apoie o crescimento deles</li>
+<li>Crie relacionamentos duradouros</li>
+</ul>
+<h2>📅 Cronograma de networking</h2>
+<h3>Rotina diária (30-60 min):</h3>
+<ul>
+<li><strong>10-15 min:</strong> Visita a 2-3 streamers conhecidos</li>
+<li><strong>15-20 min:</strong> Descoberta de novos streamers</li>
+<li><strong>10-15 min:</strong> Engajamento em redes sociais</li>
+<li><strong>10 min:</strong> Resposta a mensagens e DMs</li>
+</ul>
+<h3>Atividades semanais:</h3>
+<ul>
+<li><strong>Segunda:</strong> Planejamento da semana de networking</li>
+<li><strong>Quarta:</strong> Check-in com parcerias ativas</li>
+<li><strong>Sexta:</strong> Descoberta de novos streamers</li>
+<li><strong>Domingo:</strong> Reflexão e ajustes na estratégia</li>
+</ul>
+<h2>💬 Técnicas de conversação</h2>
+<h3>Primeiras interações:</h3>
+<ul>
+<li><strong>"Que jogo/conteúdo interessante!"</strong></li>
+<li><strong>Faça perguntas</strong> sobre o que estão fazendo</li>
+<li><strong>Compartilhe experiências</strong> relevantes</li>
+<li><strong>Elogie especificamente</strong> algo único</li>
+</ul>
+<h3>Aprofundando relações:</h3>
+<ul>
+<li><strong>Lembre-se de detalhes</strong> pessoais compartilhados</li>
+<li><strong>Acompanhe projetos</strong> que mencionaram</li>
+<li><strong>Ofereça ajuda</strong> em áreas que domina</li>
+<li><strong>Convide para colaborações</strong> quando apropriado</li>
+</ul>
+<h2>🎮 Plataformas para networking</h2>
+<h3>Discord:</h3>
+<ul>
+<li><strong>Servidores de comunidade</strong> de streaming</li>
+<li><strong>Grupos de gênero específico</strong> (RPG, FPS, etc.)</li>
+<li><strong>Comunidades de suporte</strong> a streamers</li>
+</ul>
+<h3>Twitter/X:</h3>
+<ul>
+<li><strong>Engaje com tweets</strong> de outros streamers</li>
+<li><strong>Compartilhe conteúdo</strong> relevante</li>
+<li><strong>Participe de threads</strong> da comunidade</li>
+</ul>
+<h3>Twitch/YouTube:</h3>
+<ul>
+<li><strong>Chat ativo</strong> durante transmissões</li>
+<li><strong>Comentários construtivos</strong> em vídeos</li>
+<li><strong>Participação em premieres</strong></li>
+</ul>
+<h2>⚠️ Armadilhas do networking</h2>
+<p>❌ <strong>Networking artificial</strong> (só buscar benefícios)
+❌ <strong>Spam de autopromoção</strong> em chats alheios
+❌ <strong>Ghosting</strong> após conseguir o que quer
+❌ <strong>Comparação constante</strong> com outros
+❌ <strong>Networking em quantidade</strong> vs. qualidade</p>
+<h2>📊 Métricas de networking</h2>
+<h3>KPIs qualitativos:</h3>
+<ul>
+<li><strong>Qualidade dos relacionamentos</strong> construídos</li>
+<li><strong>Frequência de interações</strong> genuínas</li>
+<li><strong>Nível de reciprocidade</strong> nas relações</li>
+<li><strong>Oportunidades geradas</strong> pelo networking</li>
+</ul>
+<h3>Resultados mensuráveis:</h3>
+<ul>
+<li><strong>Raids recebidos</strong> por mês</li>
+<li><strong>Colaborações realizadas</strong> por trimestre</li>
+<li><strong>Crescimento de seguidores</strong> via networking</li>
+<li><strong>Convites para eventos</strong> especiais</li>
+</ul>
+<h2>🚀 Networking avançado</h2>
+<h3>Criação de eventos:</h3>
+<ul>
+<li><strong>Game nights</strong> com outros streamers</li>
+<li><strong>Torneios comunitários</strong> entre canais</li>
+<li><strong>Podcasts</strong> ou talk shows colaborativos</li>
+<li><strong>Projetos de caridade</strong> em grupo</li>
+</ul>
+<h3>Programa de parcerias:</h3>
+<ul>
+<li><strong>Raids programados</strong> semanais</li>
+<li><strong>Troca de highlights</strong> em redes sociais</li>
+<li><strong>Recomendações cruzadas</strong> para viewers</li>
+<li><strong>Planejamento conjunto</strong> de conteúdo</li>
+</ul>
+<hr>
+<p><strong>💡 Dica de Expert:</strong> O melhor networking acontece quando você <strong>genuinamente se importa</strong> com o sucesso dos outros. Quando você ajuda outros streamers a crescer, você automaticamente constrói uma rede que vai te apoiar quando precisar.</p>
+d:["$","div",null,{"className":"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":[["$","nav",null,{"className":"mb-8","children":["$","ol",null,{"className":"flex items-center space-x-2 text-sm text-gray-500","children":[["$","li",null,{"children":["$","$L2",null,{"href":"/","className":"hover:text-gray-700","children":"Início"}]}],["$","li",null,{"children":"/"}],["$","li",null,{"children":["$","$L2",null,{"href":"/categoria/crescimento","className":"hover:text-gray-700 capitalize","children":"crescimento"}]}],["$","li",null,{"children":"/"}],["$","li",null,{"className":"text-gray-900 font-medium","children":"Networking Ativo"}]]}]}],["$","header",null,{"className":"mb-8","children":[["$","div",null,{"className":"flex items-start justify-between mb-4","children":[["$","div",null,{"className":"flex-1","children":[["$","h1",null,{"className":"text-4xl font-bold text-gray-900 mb-2","children":"Networking Ativo"}],["$","p",null,{"className":"text-xl text-gray-600 mb-4","children":"Construindo relacionamentos estratégicos na comunidade"}]]}],false]}],["$","div",null,{"className":"flex flex-wrap items-center gap-4 mb-6","children":[["$","span",null,{"className":"inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800","children":"intermediario"}],["$","span",null,{"className":"text-sm text-gray-500","children":"5 min"}],["$","span",null,{"className":"text-sm text-gray-500","children":["Última revisão: ","18/01/2024"]}]]}],["$","div",null,{"className":"flex flex-wrap gap-2","children":[["$","span","networking",{"className":"inline-flex items-center px-2 py-1 rounded text-sm font-medium bg-gray-100 text-gray-800","children":"networking"}],["$","span","relacionamentos",{"className":"inline-flex items-center px-2 py-1 rounded text-sm font-medium bg-gray-100 text-gray-800","children":"relacionamentos"}],["$","span","colaboracao",{"className":"inline-flex items-center px-2 py-1 rounded text-sm font-medium bg-gray-100 text-gray-800","children":"colaboracao"}],["$","span","crescimento",{"className":"inline-flex items-center px-2 py-1 rounded text-sm font-medium bg-gray-100 text-gray-800","children":"crescimento"}]]}]]}],["$","article",null,{"className":"prose prose-lg max-w-none mb-12","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$17"}}]}],"$L18"]}]
+18:["$","section",null,{"className":"border-t pt-8","children":[["$","h2",null,{"className":"text-2xl font-bold text-gray-900 mb-6","children":"Termos Relacionados"}],["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4","children":[["$","$L2","sistema-70-30",{"href":"/termo/sistema-70-30","className":"block p-4 border rounded-lg hover:shadow-md transition-shadow","children":[["$","h3",null,{"className":"font-semibold text-gray-900 mb-1","children":"Sistema 70/30"}],["$","p",null,{"className":"text-sm text-gray-600","children":"Estratégia de Reinvestimento Inteligente"}]]}],null]}]]}]
+13:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+f:null
+19:I[8175,[],"IconMark"]
+11:{"metadata":[["$","title","0",{"children":"Glossário Streamer"}],["$","meta","1",{"name":"description","content":"Seu guia completo para o sucesso no streaming"}],["$","link","2",{"rel":"icon","href":"/glossario-streamer/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","$L19","3",{}]],"error":null,"digest":"$undefined"}
+16:"$11:metadata"
