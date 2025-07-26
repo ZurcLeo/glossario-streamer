@@ -38,7 +38,7 @@ jobs:
       - name: Build with Next.js
         run: |
           echo "=== Checking Next.js config ==="
-          cat next.config.ts
+          cat next.config.js
           echo "=== Starting build ==="
           npm run build
           echo "=== Build completed, checking results ==="
