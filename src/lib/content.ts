@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
-import html from 'remark-html';
+import remarkHtml from 'remark-html'; // ← CORRIGIR IMPORTAÇÃO
 import remarkGfm from 'remark-gfm';
 import { Term, TermFrontmatter, Category } from '@/types/content';
 
@@ -41,8 +41,15 @@ export async function getTermBySlug(category: string, slug: string): Promise<Ter
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const { data, content } = matter(fileContent);
     
-    // Process markdown to HTML
-    const processedContent = await remark().use(remarkGfm).use(html).process(content);
+    // Process markdown to HTML with proper GFM support
+    const processedContent = await remark()
+      .use(remarkGfm) // ← Suporte a tabelas, listas de tarefas, etc.
+      .use(remarkHtml, { 
+        sanitize: false, // ← Permite HTML dentro do Markdown
+        allowDangerousHtml: true // ← Necessário para estruturas avançadas
+      })
+      .process(content);
+    
     const htmlContent = processedContent.toString();
     
     return {

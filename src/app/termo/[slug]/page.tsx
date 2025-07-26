@@ -1,9 +1,11 @@
-import { getAllTerms } from '@/lib/content';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import { getAllTerms, getTermBySlug, getAllCategories } from '@/lib/content';
 
-interface TermPageProps {
-  params: Promise<{ slug: string }>;
+interface Props {
+  params: {
+    slug: string;
+  };
 }
 
 export async function generateStaticParams() {
@@ -13,16 +15,37 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function TermPage({ params }: TermPageProps) {
-  const { slug } = await params;
-  
-  // Find the term across all categories
+export async function generateMetadata({ params }: Props) {
+  // Precisamos encontrar o termo em todas as categorias
   const allTerms = await getAllTerms();
-  const term = allTerms.find(t => t.slug === slug);
+  const term = allTerms.find(t => t.slug === params.slug);
+  
+  if (!term) {
+    return {
+      title: 'Termo não encontrado',
+      description: 'O termo solicitado não foi encontrado.',
+    };
+  }
 
+  return {
+    title: `${term.frontmatter.title} | Glossário Streamer`,
+    description: term.frontmatter.subtitle || `Aprenda sobre ${term.frontmatter.title}`,
+    keywords: term.frontmatter.keywords.join(', '),
+  };
+}
+
+export default async function TermPage({ params }: Props) {
+  // Buscar o termo em todas as categorias
+  const allTerms = await getAllTerms();
+  const term = allTerms.find(t => t.slug === params.slug);
+  
   if (!term) {
     notFound();
   }
+
+  // Buscar informações da categoria
+  const categories = getAllCategories();
+  const category = categories.find(c => c.slug === term.frontmatter.category);
 
   const difficultyColors = {
     iniciante: 'bg-green-100 text-green-800',
@@ -30,114 +53,74 @@ export default async function TermPage({ params }: TermPageProps) {
     avancado: 'bg-red-100 text-red-800',
   };
 
-  const difficultyColor = difficultyColors[term.frontmatter.difficulty];
-
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Breadcrumb */}
-      <nav className="mb-8">
-        <ol className="flex items-center space-x-2 text-sm text-gray-500">
-          <li>
-            <Link href="/" className="hover:text-gray-700">
-              Início
-            </Link>
-          </li>
-          <li>/</li>
-          <li>
+      <nav className="flex items-center space-x-2 text-sm text-gray-500 mb-6">
+        <Link href="/" className="hover:text-purple-600">
+          Início
+        </Link>
+        <span>/</span>
+        {category && (
+          <>
             <Link 
-              href={`/categoria/${term.frontmatter.category}`}
-              className="hover:text-gray-700 capitalize"
+              href={`/categoria/${category.slug}`}
+              className="hover:text-purple-600"
             >
-              {term.frontmatter.category}
+              {category.name}
             </Link>
-          </li>
-          <li>/</li>
-          <li className="text-gray-900 font-medium">
-            {term.frontmatter.title}
-          </li>
-        </ol>
+            <span>/</span>
+          </>
+        )}
+        <span className="text-gray-900">{term.frontmatter.title}</span>
       </nav>
 
       {/* Header */}
       <header className="mb-8">
-        <div className="flex items-start justify-between mb-4">
-          <div className="flex-1">
-            <h1 className="text-4xl font-bold text-gray-900 mb-2">
-              {term.frontmatter.title}
-            </h1>
-            {term.frontmatter.subtitle && (
-              <p className="text-xl text-gray-600 mb-4">
-                {term.frontmatter.subtitle}
-              </p>
-            )}
-          </div>
-          {term.frontmatter.featured && (
-            <span className="ml-4 inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">
-              ⭐ Destaque
-            </span>
-          )}
-        </div>
-
-        <div className="flex flex-wrap items-center gap-4 mb-6">
-          <span className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium ${difficultyColor}`}>
+        <div className="flex items-center gap-3 mb-4">
+          <span className={`px-3 py-1 rounded-full text-sm font-medium ${difficultyColors[term.frontmatter.difficulty]}`}>
             {term.frontmatter.difficulty}
           </span>
           <span className="text-sm text-gray-500">
             {term.frontmatter.estimatedReadTime}
           </span>
-          <span className="text-sm text-gray-500">
-            Última revisão: {new Date(term.frontmatter.lastReviewed).toLocaleDateString('pt-BR')}
-          </span>
         </div>
+        
+        <h1 className="text-4xl font-bold text-gray-900 mb-3">
+          {term.frontmatter.title}
+        </h1>
+        
+        {term.frontmatter.subtitle && (
+          <p className="text-xl text-gray-600 mb-4">
+            {term.frontmatter.subtitle}
+          </p>
+        )}
 
+        {/* Tags */}
         <div className="flex flex-wrap gap-2">
           {term.frontmatter.tags.map((tag) => (
             <span
               key={tag}
-              className="inline-flex items-center px-2 py-1 rounded text-sm font-medium bg-gray-100 text-gray-800"
+              className="px-2 py-1 bg-purple-100 text-purple-800 rounded text-sm"
             >
-              {tag}
+              #{tag}
             </span>
           ))}
         </div>
       </header>
 
-      {/* Content */}
-      <article className="prose prose-lg max-w-none mb-12">
-      <div dangerouslySetInnerHTML={{ __html: term.htmlContent }} />
-      </article>
+      {/* Content - USANDO htmlContent PROCESSADO */}
+      <article 
+        className="prose prose-lg max-w-none prose-purple prose-headings:text-gray-900 prose-a:text-purple-600 hover:prose-a:text-purple-800"
+        dangerouslySetInnerHTML={{ __html: term.htmlContent }}
+      />
 
-      {/* Related Terms */}
-      {term.frontmatter.relatedTerms.length > 0 && (
-        <section className="border-t pt-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            Termos Relacionados
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {term.frontmatter.relatedTerms.map((relatedSlug) => {
-              const relatedTerm = allTerms.find(t => t.slug === relatedSlug);
-              if (!relatedTerm) return null;
-              
-              return (
-                <Link
-                  key={relatedSlug}
-                  href={`/termo/${relatedSlug}`}
-                  className="block p-4 border rounded-lg hover:shadow-md transition-shadow"
-                >
-                  <h3 className="font-semibold text-gray-900 mb-1">
-                    {relatedTerm.frontmatter.title}
-                  </h3>
-                  {relatedTerm.frontmatter.subtitle && (
-                    <p className="text-sm text-gray-600">
-                      {relatedTerm.frontmatter.subtitle}
-                    </p>
-                  )}
-                </Link>
-              );
-            })}
-          </div>
-        </section>
-      )}
+      {/* Footer */}
+      <footer className="mt-12 pt-8 border-t border-gray-200">
+        <p className="text-sm text-gray-500">
+          Última revisão: {new Date(term.frontmatter.lastReviewed).toLocaleDateString('pt-BR')}
+        </p>
+      </footer>
     </div>
   );
 }
