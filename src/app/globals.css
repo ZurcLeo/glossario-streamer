@@ -24,3 +24,72 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Estilos para artigos em tema escuro */
+.prose-invert {
+  --tw-prose-body: #e5e7eb;
+  --tw-prose-headings: #f9fafb;
+  --tw-prose-lead: #d1d5db;
+  --tw-prose-links: #60a5fa;
+  --tw-prose-bold: #f9fafb;
+  --tw-prose-counters: #9ca3af;
+  --tw-prose-bullets: #6b7280;
+  --tw-prose-hr: #374151;
+  --tw-prose-quotes: #f9fafb;
+  --tw-prose-quote-borders: #374151;
+  --tw-prose-captions: #9ca3af;
+  --tw-prose-code: #f9fafb;
+  --tw-prose-pre-code: #d1d5db;
+  --tw-prose-pre-bg: #1f2937;
+  --tw-prose-th-borders: #374151;
+  --tw-prose-td-borders: #2d3748;
+}
+
+/* Estilos específicos para divs e elementos customizados */
+.prose-invert .bg-gray-50 {
+  background-color: #374151 !important;
+}
+
+.prose-invert .border-gray-200 {
+  border-color: #4b5563 !important;
+}
+
+.prose-invert .text-gray-900 {
+  color: #f9fafb !important;
+}
+
+.prose-invert .text-gray-600 {
+  color: #d1d5db !important;
+}
+
+.prose-invert .text-gray-500 {
+  color: #9ca3af !important;
+}
+
+/* Tabelas em tema escuro */
+.prose-invert table {
+  border-color: #4b5563;
+}
+
+.prose-invert th,
+.prose-invert td {
+  border-color: #4b5563;
+  color: #f9fafb;
+}
+
+.prose-invert th {
+  background-color: #374151;
+}
+
+/* Códigos em tema escuro */
+.prose-invert code {
+  background-color: #374151;
+  color: #f9fafb;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.prose-invert blockquote {
+  border-left-color: #60a5fa;
+  color: #d1d5db;
+}
