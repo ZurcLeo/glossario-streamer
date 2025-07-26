@@ -10,7 +10,8 @@ export function SearchBox() {
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (query.trim()) {
-      router.push(`/busca?q=${encodeURIComponent(query.trim())}`);
+      // Por enquanto, vamos focar na busca na página principal
+      router.push(`/?q=${encodeURIComponent(query.trim())}`);
     }
   };
 

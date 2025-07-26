@@ -54,7 +54,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/busca" className="text-gray-600 hover:text-gray-900 text-sm">
+                <a href="/#busca" className="text-gray-600 hover:text-gray-900 text-sm">
                   Buscar
                 </a>
               </li>
