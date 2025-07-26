@@ -24,8 +24,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
-          cache: 'npm'
+          node-version: '18'
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -33,23 +32,15 @@ jobs:
           static_site_generator: next
       
       - name: Install dependencies
-        run: npm ci
+        run: npm install
       
       - name: Build with Next.js
-        run: |
-          npm run build
-          echo "Build completed, checking directories:"
-          ls -la
-          echo "Checking for .next directory:"
-          ls -la .next/ || echo ".next directory not found"
-          echo "Checking for out directory:"
-          ls -la out/ || echo "out directory not found"
-      
+        run: npm run build
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
-        if: hashFiles('out/**') != ''
 
   deploy:
     environment:
