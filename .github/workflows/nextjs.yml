@@ -36,7 +36,23 @@ jobs:
         run: npm ci
       
       - name: Build with Next.js
-        run: npm run build
+        run: |
+          echo "=== Checking Next.js config ==="
+          cat next.config.ts
+          echo "=== Starting build ==="
+          npm run build
+          echo "=== Build completed, checking results ==="
+          pwd
+          ls -la
+          echo "=== Checking for out directory ==="
+          if [ -d "out" ]; then
+            echo "✅ out directory exists"
+            ls -la out/
+          else
+            echo "❌ out directory does not exist"
+            echo "Checking for .next directory:"
+            ls -la .next/ || echo ".next not found"
+          fi
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
