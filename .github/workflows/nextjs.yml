@@ -4,12 +4,19 @@ on:
   push:
     branches: ["main"]
 
+permissions:
+  contents: write  # ← MUDANÇA AQUI (era read)
+  pages: write
+  id-token: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # ← ADICIONAR ISSO
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -23,7 +30,6 @@ jobs:
         run: |
           npm run build
           touch out/.nojekyll
-          ls -la out/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
@@ -31,3 +37,4 @@ jobs:
           folder: out
           branch: gh-pages
           clean: true
+          token: ${{ secrets.GITHUB_TOKEN }}  # ← ADICIONAR ISSO
