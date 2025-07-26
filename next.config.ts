@@ -4,8 +4,6 @@ const nextConfig = {
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
   distDir: 'out',
-  basePath: '/glossario-streamer',
-  assetPrefix: '/glossario-streamer/',
   images: {
     unoptimized: true,
   },
