@@ -126,3 +126,5 @@ vercel --prod
 ---
 
 Feito com ❤️ para a comunidade de streamers brasileiros 🇧🇷
+
+<!-- trigger deploy -->
