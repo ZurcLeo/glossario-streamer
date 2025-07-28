@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
-import remarkHtml from 'remark-html'; // ← CORRIGIR IMPORTAÇÃO
+import remarkHtml from 'remark-html';
 import remarkGfm from 'remark-gfm';
 import { Term, TermFrontmatter, Category } from '@/types/content';
 
@@ -65,48 +65,27 @@ export async function getTermBySlug(category: string, slug: string): Promise<Ter
 }
 
 export async function getTermsByCategory(category: string): Promise<Term[]> {
-  const categoryPath = path.join(termsDirectory, category);
+  // Busca todos os termos e filtra por categoria do front matter
+  const allTerms = await getAllTerms();
+  const termsInCategory = allTerms.filter(term => term.frontmatter.category === category);
   
-  if (!fs.existsSync(categoryPath)) {
-    return [];
-  }
-  
-  const files = fs.readdirSync(categoryPath);
-  const terms: Term[] = [];
-  
-  for (const file of files) {
-    if (file.endsWith('.md')) {
-      const slug = file.replace(/\.md$/, '');
-      const term = await getTermBySlug(category, slug);
-      if (term) {
-        terms.push(term);
-      }
-    }
-  }
-  
-  return terms.sort((a, b) => b.frontmatter.priority - a.frontmatter.priority);
+  return termsInCategory.sort((a, b) => b.frontmatter.priority - a.frontmatter.priority);
 }
 
-export function getAllCategories(): Category[] {
-  const categories = fs.readdirSync(termsDirectory);
+export async function getAllCategories(): Promise<Category[]> {
+  const allTerms = await getAllTerms();
+  const categoryNames = ['seguranca', 'monetizacao', 'conteudo', 'comunidade', 'crescimento', 'tecnico'];
   
-  return categories
-    .filter(category => {
-      const categoryPath = path.join(termsDirectory, category);
-      return fs.statSync(categoryPath).isDirectory();
-    })
-    .map(category => {
-      const categoryPath = path.join(termsDirectory, category);
-      const files = fs.readdirSync(categoryPath);
-      const termCount = files.filter(file => file.endsWith('.md')).length;
-      
-      return {
-        slug: category,
-        name: getCategoryDisplayName(category),
-        description: getCategoryDescription(category),
-        termCount,
-      };
-    });
+  return categoryNames.map(category => {
+    const termsInCategory = allTerms.filter(term => term.frontmatter.category === category);
+    
+    return {
+      slug: category,
+      name: getCategoryDisplayName(category),
+      description: getCategoryDescription(category),
+      termCount: termsInCategory.length,
+    };
+  });
 }
 
 function getCategoryDisplayName(slug: string): string {

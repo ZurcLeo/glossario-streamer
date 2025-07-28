@@ -3,7 +3,7 @@ import { CategoryCard } from '@/components/ui/CategoryCard';
 import { TermCard } from '@/components/ui/TermCard';
 
 export default async function Home() {
-  const categories = getAllCategories();
+  const categories = await getAllCategories();
   const allTerms = await getAllTerms();
   const featuredTerms = allTerms.filter(term => term.frontmatter.featured).slice(0, 6);
 

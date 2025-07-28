@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getAllTerms, getAllCategories } from '@/lib/content';
+import { RelatedTerms } from '@/components/content/RelatedTerms';
 
 interface Props {
   params: Promise<{
@@ -46,7 +47,7 @@ export default async function TermPage({ params }: Props) {
   }
 
   // Buscar informações da categoria
-  const categories = getAllCategories();
+  const categories = await getAllCategories();
   const category = categories.find(c => c.slug === term.frontmatter.category);
 
   const difficultyColors = {
@@ -117,10 +118,16 @@ export default async function TermPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: term.htmlContent }}
       />
 
+      {/* Related Terms */}
+      <RelatedTerms 
+        relatedTermSlugs={term.frontmatter.relatedTerms} 
+        allTerms={allTerms}
+      />
+
       {/* Footer */}
       <footer className="mt-12 pt-8 border-t border-gray-200">
         <p className="text-sm text-gray-500">
-          Última revisão: {new Date(term.frontmatter.lastReviewed).toLocaleDateString('pt-BR')}
+          Última revisão: {term.frontmatter.lastReviewed}
         </p>
       </footer>
     </div>

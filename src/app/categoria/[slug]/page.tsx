@@ -7,7 +7,7 @@ interface CategoryPageProps {
 }
 
 export async function generateStaticParams() {
-  const categories = getAllCategories();
+  const categories = await getAllCategories();
   return categories.map((category) => ({
     slug: category.slug,
   }));
@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 export default async function CategoryPage({ params }: CategoryPageProps) {
   const { slug } = await params;
   const terms = await getTermsByCategory(slug);
-  const categories = getAllCategories();
+  const categories = await getAllCategories();
   const category = categories.find(c => c.slug === slug);
 
   if (!category) {
