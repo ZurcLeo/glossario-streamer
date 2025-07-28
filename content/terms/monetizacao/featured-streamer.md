@@ -8,7 +8,7 @@ keywords: ["featured streamer", "como ser destacado", "algoritmo hornet"]
 searchTerms: ["ser featured", "destaque plataforma", "visibilidade maxima"]
 priority: 95
 featured: true
-lastReviewed: "2024-01-20"
+lastReviewed: "2025-07-20"
 estimatedReadTime: "7 min"
 relatedTerms: ["top-gifter", "sistema-tiers-badges", "coracao-vs-presente"]
 ---

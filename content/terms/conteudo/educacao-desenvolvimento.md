@@ -8,7 +8,7 @@ keywords: ["educacao streaming", "conteudo educativo", "desenvolvimento pessoal"
 searchTerms: ["como educar streaming", "conteudo educacional", "aprendizado online"]
 priority: 85
 featured: true
-lastReviewed: "2024-01-20"
+lastReviewed: "2025-07-20"
 estimatedReadTime: "7 min"
 relatedTerms: ["estrutura-2h-live", "temas-engajamento", "comunidade-lgbtq"]
 ---

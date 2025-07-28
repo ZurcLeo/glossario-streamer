@@ -8,7 +8,7 @@ keywords: ["sistema tiers", "badges streaming", "gamificacao lealdade"]
 searchTerms: ["tiers streamers", "badges recognition", "sistema vip"]
 priority: 75
 featured: false
-lastReviewed: "2024-01-20"
+lastReviewed: "2025-07-20"
 estimatedReadTime: "6 min"
 relatedTerms: ["featured-streamer", "top-gifter", "reciprocidade-inteligente"]
 ---

@@ -8,7 +8,7 @@ keywords: ["protocolo anti drama", "evitar conflitos", "gestao drama"]
 searchTerms: ["como evitar drama", "protocolo conflitos", "anti drama streaming"]
 priority: 90
 featured: true
-lastReviewed: "2024-01-20"
+lastReviewed: "2025-07-20"
 estimatedReadTime: "6 min"
 relatedTerms: ["ambiente-seguro", "gestao-conflitos", "moderacao-inteligente"]
 ---

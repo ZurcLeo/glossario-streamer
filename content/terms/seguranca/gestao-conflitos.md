@@ -8,7 +8,7 @@ keywords: ["gestao conflitos", "resolver brigas", "mediacao chat"]
 searchTerms: ["como resolver conflitos", "gestao de briga", "moderacao conflitos"]
 priority: 85
 featured: false
-lastReviewed: "2024-01-20"
+lastReviewed: "2025-07-20"
 estimatedReadTime: "7 min"
 relatedTerms: ["protocolo-anti-drama", "ambiente-seguro", "moderacao-inteligente"]
 ---

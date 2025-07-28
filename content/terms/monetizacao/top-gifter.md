@@ -8,7 +8,7 @@ keywords: ["top gifter", "grandes doadores", "gestao apoiadores"]
 searchTerms: ["como lidar top gifter", "grandes apoiadores", "vip members"]
 priority: 75
 featured: false
-lastReviewed: "2024-01-20"
+lastReviewed: "2025-07-20"
 estimatedReadTime: "6 min"
 relatedTerms: ["featured-streamer", "reciprocidade-inteligente", "sistema-tiers-badges"]
 ---

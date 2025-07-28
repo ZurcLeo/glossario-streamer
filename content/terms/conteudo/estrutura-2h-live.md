@@ -8,7 +8,7 @@ keywords: ["estrutura live 2 horas", "framework streaming", "roteiro live"]
 searchTerms: ["como estruturar live", "roteiro 2 horas", "framework stream"]
 priority: 85
 featured: true
-lastReviewed: "2024-01-20"
+lastReviewed: "2025-07-20"
 estimatedReadTime: "8 min"
 relatedTerms: ["temas-engajamento", "educacao-desenvolvimento", "networking-ativo"]
 ---

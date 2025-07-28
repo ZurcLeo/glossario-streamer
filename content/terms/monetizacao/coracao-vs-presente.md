@@ -8,7 +8,7 @@ keywords: ["coracao vs presente", "diferenca hearts gifts", "engagement monetiza
 searchTerms: ["hearts vs gifts", "diferenca coracao presente", "como monetizar"] 
 priority: 85 
 featured: true 
-lastReviewed: "2024-01-20" 
+lastReviewed: "2025-07-20" 
 estimatedReadTime: "5 min" 
 relatedTerms: ["presentes-gratuitos", "sistema-70-30", "featured-streamer"]
 ---

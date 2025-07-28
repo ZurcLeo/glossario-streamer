@@ -8,7 +8,7 @@ keywords: ["reciprocidade inteligente", "economia relacionamentos", "dar primeir
 searchTerms: ["como retribuir", "estrategia de generosidade", "relacionamentos streamers"]
 priority: 80
 featured: false
-lastReviewed: "2024-01-20"
+lastReviewed: "2025-07-20"
 estimatedReadTime: "6 min"
 relatedTerms: ["sistema-70-30", "networking-ativo", "portfolio-balanceamento"]
 ---

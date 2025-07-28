@@ -8,7 +8,7 @@ keywords: ["comunidade 18+", "verificacao idade", "adultos only"]
 searchTerms: ["18 anos", "verificar idade", "comunidade adulta"]
 priority: 95
 featured: true
-lastReviewed: "2024-01-20"
+lastReviewed: "2025-07-20"
 estimatedReadTime: "4 min"
 relatedTerms: ["ambiente-seguro", "substancias-proibidas", "dress-code-inteligente"]
 ---

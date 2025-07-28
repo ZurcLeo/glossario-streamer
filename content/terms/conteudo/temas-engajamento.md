@@ -8,7 +8,7 @@ keywords: ["temas engajamento", "conteudo conecta", "como engajar"]
 searchTerms: ["temas para live", "como engajar audiencia", "conteudo viral"]
 priority: 80
 featured: false
-lastReviewed: "2024-01-20"
+lastReviewed: "2025-07-20"
 estimatedReadTime: "5 min"
 relatedTerms: ["estrutura-2h-live", "educacao-desenvolvimento", "networking-ativo"]
 ---

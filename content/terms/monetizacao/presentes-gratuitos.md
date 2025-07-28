@@ -8,7 +8,7 @@ keywords: ["presentes gratuitos", "free gifts", "estrategia valor"]
 searchTerms: ["como dar presentes", "gifts gratuitos", "generosidade streaming"]
 priority: 70
 featured: false
-lastReviewed: "2024-01-20"
+lastReviewed: "2025-07-20"
 estimatedReadTime: "4 min"
 relatedTerms: ["coracao-vs-presente", "reciprocidade-inteligente", "sistema-70-30"]
 ---

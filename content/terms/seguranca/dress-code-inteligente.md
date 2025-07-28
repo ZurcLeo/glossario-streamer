@@ -8,7 +8,7 @@ keywords: ["dress code streaming", "como se vestir", "apresentacao visual"]
 searchTerms: ["o que vestir streaming", "dress code live", "roupa para stream"]
 priority: 80
 featured: false
-lastReviewed: "2024-01-20"
+lastReviewed: "2025-07-20"
 estimatedReadTime: "5 min"
 relatedTerms: ["ambiente-seguro", "substancias-proibidas", "comunidade-18-mais"]
 ---

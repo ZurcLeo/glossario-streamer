@@ -8,7 +8,7 @@ keywords: ["substancias proibidas", "drogas streaming", "politica seguranca"]
 searchTerms: ["drogas em live", "substancias ilegais", "regras drogas"]
 priority: 95
 featured: true
-lastReviewed: "2024-01-20"
+lastReviewed: "2025-07-20"
 estimatedReadTime: "3 min"
 relatedTerms: ["comunidade-18-mais", "ambiente-seguro", "dress-code-inteligente"]
 ---

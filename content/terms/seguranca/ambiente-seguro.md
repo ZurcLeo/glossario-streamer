@@ -8,7 +8,7 @@ keywords: ["ambiente seguro", "moderacao", "regras chat"]
 searchTerms: ["como moderar", "regras transmissao", "ambiente protegido"]
 priority: 90
 featured: true
-lastReviewed: "2024-01-20"
+lastReviewed: "2025-07-20"
 estimatedReadTime: "4 min"
 relatedTerms: ["moderador-diamante", "protocolo-anti-drama"]
 ---

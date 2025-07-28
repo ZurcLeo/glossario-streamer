@@ -8,7 +8,7 @@ keywords: ["portfolio balanceamento", "diversificacao receitas", "multiplas font
 searchTerms: ["diversificar receita", "portfolio streaming", "multiplas fontes renda"]
 priority: 70
 featured: false
-lastReviewed: "2024-01-20"
+lastReviewed: "2025-07-20"
 estimatedReadTime: "8 min"
 relatedTerms: ["sistema-70-30", "reciprocidade-inteligente", "top-gifter"]
 ---
