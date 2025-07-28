@@ -8,7 +8,7 @@ keywords: ["comunidade lgbtq+", "streaming inclusivo", "diversidade"]
 searchTerms: ["lgbtq streaming", "inclusao sexual", "espaco seguro"]
 priority: 90
 featured: true
-lastReviewed: "2024-01-20"
+lastReviewed: "2025-07-20"
 estimatedReadTime: "8 min"
 relatedTerms: ["ambiente-seguro", "comunidade-18-mais", "educacao-desenvolvimento"]
 ---
