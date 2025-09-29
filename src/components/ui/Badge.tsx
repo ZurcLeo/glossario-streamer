@@ -1,4 +1,9 @@
-import { designTokens } from '@/styles/design-tokens';
+// Importar apenas o que precisamos para evitar problemas de build
+const difficultyStyles = {
+  iniciante: 'bg-green-100 text-green-800',
+  intermediario: 'bg-yellow-100 text-yellow-800',
+  avancado: 'bg-red-100 text-red-800',
+} as const;
 
 export interface BadgeProps {
   variant?: 'default' | 'difficulty' | 'featured' | 'tag';
@@ -19,8 +24,7 @@ export function Badge({
     switch (variant) {
       case 'difficulty':
         if (!difficulty) return 'bg-gray-100 text-gray-800';
-        const difficultyConfig = designTokens.difficulty[difficulty];
-        return `bg-[${difficultyConfig.bg}] text-[${difficultyConfig.text}]`;
+        return difficultyStyles[difficulty];
 
       case 'featured':
         return 'bg-purple-100 text-purple-800 border border-purple-200';

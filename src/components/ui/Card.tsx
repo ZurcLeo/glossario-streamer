@@ -1,4 +1,4 @@
-import { designTokens } from '@/styles/design-tokens';
+// Remover import não utilizado
 
 export interface CardProps {
   variant?: 'default' | 'elevated' | 'outlined' | 'filled';

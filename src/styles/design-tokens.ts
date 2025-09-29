@@ -1,4 +1,4 @@
-export const designTokens = {
+const designTokens = {
   // Cores
   colors: {
     primary: {
@@ -129,3 +129,9 @@ export const designTokens = {
 } as const;
 
 export type DesignTokens = typeof designTokens;
+
+// Para compatibilidade com CommonJS (Tailwind)
+module.exports = { designTokens };
+
+// Para compatibilidade com ES modules
+export { designTokens };
